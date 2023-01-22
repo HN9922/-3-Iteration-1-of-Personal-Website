@@ -1,0 +1,147 @@
+blockquote {
+    position:relative;
+    text-align: center;
+    font-size: 35px;
+    display:grid;
+    margin-top: 65px;    
+}
+  
+.work {
+    background-color: #f9fbfa;
+    padding: 1rem 6rem;
+    text-align: center;
+  }
+  
+  .work h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  .work p {
+    line-height: 36px
+  }
+
+  .writing {
+    background-color: #fff;
+    padding: 1rem 6rem;
+    text-align: center;
+  }
+  
+  .writing h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  .writing p {
+    line-height: 36px
+  }
+
+  .art {
+    background-color: #f9fbfa;
+    padding: 1rem 6rem;
+    text-align: center;
+  }
+  
+  .art h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  .art p {
+    line-height: 36px
+  }
+
+
+  .story {
+    background-color: #fff;
+    padding: 1rem 6rem;
+    text-align: left;
+  }
+
+  .story {
+    background-color: #fff;
+    padding: 1rem 6rem;
+    text-align: left;
+  }
+  
+  .story h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  .story p {
+    line-height: 36px
+  }
+
+body {
+font-family: 'GFS Didot', serif;
+font-size: medium;
+line-height: 1.5;
+background-color: #fff;
+color: black;
+overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: calc(15px + 0.390625vw)
+}
+
+footer {
+    position:relative;
+    background-color: #f9fbfa;
+    margin:auto;
+    color: #959d92;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    text-indent: 35px; 
+    font-family:'GFS Didot', serif;
+    font-size: 22px;   
+}
+
+a:link { 
+    text-decoration:none;
+    color:black;
+        
+}
+
+a:visited {
+    text-decoration:none;
+    color:#959d92;
+
+}
+
+a:hover { 
+    color: #959d92;
+    
+}
+
+
+  header {
+    padding:0;
+  }
+  .container{
+    flex-direction:row;
+    display: block;
+    max-width: 100%;
+    width: 100px;
+    padding:0 1.5rem;
+    text-size-adjust:calc(15px + 0.390625vw);    
+}
+
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+@media (max-width: 480px) {
+  .container {
+    font-size: 16px;
+  }
+}
+
+
